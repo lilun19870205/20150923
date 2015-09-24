@@ -1,0 +1,144 @@
+Python 2.7.10 |Continuum Analytics, Inc.| (default, Sep 15 2015, 14:50:01) 
+Type "copyright", "credits" or "license" for more information.
+
+IPython 4.0.0 -- An enhanced Interactive Python.
+?         -> Introduction and overview of IPython's features.
+%quickref -> Quick reference.
+help      -> Python's own help system.
+object?   -> Details about 'object', use 'object??' for extra details.
+%guiref   -> A brief reference about the graphical user interface.
+
+In [1]: runfile('/home/lilun/me701/untitled2.py', wdir='/home/lilun/me701')
+  File "/home/lilun/me701/untitled2.py", line 8
+    f=open('test.txt)
+                    ^
+SyntaxError: EOL while scanning string literal
+
+
+In [2]: runfile('/home/lilun/me701/untitled2.py', wdir='/home/lilun/me701')
+abc
+
+
+In [3]: runfile('/home/lilun/me701/untitled2.py', wdir='/home/lilun/me701')
+abc
+
+
+In [4]: runfile('/home/lilun/me701/untitled2.py', wdir='/home/lilun/me701')
+abc
+
+
+In [5]: runfile('/home/lilun/me701/untitled3.py', wdir='/home/lilun/me701')
+
+In [6]: runfile('/home/lilun/me701/untitled3.py', wdir='/home/lilun/me701')
+
+In [7]: a
+Out[7]: 
+array([[ 1.,  2.],
+       [ 2.,  3.],
+       [ 3.,  8.]])
+
+In [8]: a[1,1]
+Out[8]: 3.0
+
+In [9]: a[0]
+Out[9]: array([ 1.,  2.])
+
+In [10]: x=a[:,0]
+
+In [11]: x
+Out[11]: array([ 1.,  2.,  3.])
+
+In [12]: B=np.loadtxt('number.txt',unpact=True
+    ...: b
+    ...: B
+    ...: )
+  File "<ipython-input-12-fd994e45d14e>", line 2
+    b
+    ^
+SyntaxError: invalid syntax
+
+
+In [13]: B=np.loadtxt('number.txt',unpact=True
+    ...: )
+Traceback (most recent call last):
+
+  File "<ipython-input-13-486771a9146f>", line 1, in <module>
+    B=np.loadtxt('number.txt',unpact=True
+
+TypeError: loadtxt() got an unexpected keyword argument 'unpact'
+
+
+In [14]: B=np.loadtxt('number.txt',unpact=True)
+Traceback (most recent call last):
+
+  File "<ipython-input-14-4d000e730665>", line 1, in <module>
+    B=np.loadtxt('number.txt',unpact=True)
+
+TypeError: loadtxt() got an unexpected keyword argument 'unpact'
+
+
+In [15]: B
+Traceback (most recent call last):
+
+  File "<ipython-input-15-30cf3d7d133b>", line 1, in <module>
+    B
+
+NameError: name 'B' is not defined
+
+
+In [16]: B=np.loadtxt('number.txt',unpack=True)
+
+In [17]: B
+Out[17]: 
+array([[ 1.,  2.,  3.],
+       [ 2.,  3.,  8.]])
+
+In [18]: x,y=np.loadtxt('number.txt',unpack=True)
+
+In [19]: x
+Out[19]: array([ 1.,  2.,  3.])
+
+In [20]: y
+Out[20]: array([ 2.,  3.,  8.])
+
+In [21]: a
+Out[21]: 
+array([[ 1.,  2.],
+       [ 2.,  3.],
+       [ 3.,  8.]])
+
+In [22]: runfile('/home/lilun/me701/untitled4.py', wdir='/home/lilun/me701')
+
+In [23]: more x.txt
+1.0000000000000000
+
+In [24]: runfile('/home/lilun/me701/untitled4.py', wdir='/home/lilun/me701')
+  File "/home/lilun/me701/untitled4.py", line 24
+    
+    ^
+SyntaxError: invalid syntax
+
+
+In [25]: runfile('/home/lilun/me701/untitled4.py', wdir='/home/lilun/me701')
+
+In [26]: np.linalg.norm
+Out[26]: <function numpy.linalg.linalg.norm>
+
+In [27]: x=np.array([1,2,3])
+
+In [28]: x
+Out[28]: array([1, 2, 3])
+
+In [29]: np.linalg.norm(x)
+Out[29]: 3.7416573867739413
+
+In [30]: sum(np.sqrt(x))
+Out[30]: 4.1462643699419726
+
+In [31]: np.linalg.norm(x,3)
+Out[31]: 3.3019272488946263
+
+In [32]: np.linalg.norm(x,np.inf)
+Out[32]: 3
+
+In [33]:
